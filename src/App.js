@@ -4,7 +4,6 @@ import Header from "./components/ui/Header";
 import CharacterGrid from "./components/characters/CharacterGrid";
 import Search from "./components/ui/Search";
 import "./App.css";
-import { queryAllByAltText } from "@testing-library/react";
 
 const App = () => {
   const [items, setItems] = useState([]);
